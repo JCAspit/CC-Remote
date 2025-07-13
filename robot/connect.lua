@@ -2,6 +2,7 @@ local json = require("json")
 local control = require("control")
 
 local url = ""
+if not url then print("Please provide a URL to which to connect.") return end
 local ws, err = http.websocket(url)
 if err then print("ERROR: Unable to connect to server.\n".. err) return end
 print("> Connected to server.")
