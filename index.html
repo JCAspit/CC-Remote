@@ -1,10 +1,10 @@
 <body>
-	<input type="button" value="Refuel" onclick="issueCommand('turtle.refuel()')"/>
-	<input type="button" value="Print Fuel Level" onclick="issueCommand('print(turtle.getFuelLevel())')"/>
-	<input type="button" value="Perform Mitosis" onclick="issueCommand('mitosis()')"/>
-	<input type="button" value="Break" onclick="issueCommand('turtle.dig()')"/>
-	<input type="button" value="Break Up" onclick="issueCommand('turtle.digUp()')"/>
-	<input type="button" value="Break Down" onclick="issueCommand('turtle.digDown()')"/>
+	<input type="button" value="Refuel" onclick="issueCommand('refuel')"/>
+	<!--<input type="button" value="Print Fuel Level" onclick="issueCommand('print(turtle.getFuelLevel())')"/>-->
+	<input type="button" value="Perform Mitosis" onclick="issueCommand('mitosis')"/>
+	<input type="button" value="Break" onclick="issueCommand('break')"/>
+	<input type="button" value="Break Up" onclick="issueCommand('break', 1)"/>
+	<input type="button" value="Break Down" onclick="issueCommand('break, -1')"/>
 	<input type="button" id="button" value="open window" onclick="window.open('http://127.0.0.1:8080', 'Turtle Controls', 'width=500,height=250,left=500,top=250')"/>
 </body>
 
