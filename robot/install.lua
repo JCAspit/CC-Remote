@@ -31,7 +31,7 @@ end
 end
 end
 
-local files = { --[["install.lua",]] "startup.lua", "json.lua", "connect.lua", "control.lua" }
+local files = {	"install.lua", "startup.lua", "json.lua", "connect.lua", "control.lua" }
 local baseUrl = "https://raw.githubusercontent.com/JCAspit/CC-Remote/refs/heads/master/robot/"
 for _, file in pairs(files) do
 	print("Downloading ".. file.. " to ".. "/".. file)
