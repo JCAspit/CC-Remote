@@ -37,3 +37,5 @@ for _, file in pairs(files) do
 	print("Downloading ".. file.. " to ".. "/".. file)
 	download(baseUrl.. file, "/".. file, "force")
 end
+
+shell.run("reboot")
